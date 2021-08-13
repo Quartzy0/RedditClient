@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:key="bookmarks"
+        android:title="List preference" />
+    <PreferenceCategory android:title="Netwok settings">
+
+        <EditTextPreference
+            android:summary="How many items per request should be loaded"
+            android:defaultValue="20"
+            android:inputType="number"
+            android:key="itemsPerPage"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Items per page" />
+    </PreferenceCategory>
+</PreferenceScreen>
